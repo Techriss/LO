@@ -18,13 +18,13 @@ int main()
         a > b &&
         c > 10) ||
         c == 0)
-        {
-            cout << "Warunek spelniony!";
-        }
-        else
-        {
-            cout << "Warunek nie jest spelniony";
-        }
+    {
+        cout << "Warunek spelniony!";
+    }
+    else
+    {
+        cout << "Warunek nie jest spelniony";
+    }
 
     return 0;
 }
