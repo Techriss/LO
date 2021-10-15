@@ -1,6 +1,9 @@
 {
     "files.associations": {
+        "*.dart": "dart",
+        "*.vstemplate": "xml",
         "iostream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "xstring": "cpp"
     }
 }
