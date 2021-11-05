@@ -5,3 +5,4 @@
 - Lesson4 - Nested Loops
 - Lesson5 - Break
 - Lesson6 - Breaks, continues, infinite loops and switch
+- Lesson7 - Math fs

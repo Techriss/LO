@@ -4,6 +4,7 @@
         "*.vstemplate": "xml",
         "iostream": "cpp",
         "ostream": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "cmath": "cpp"
     }
 }
