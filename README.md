@@ -7,3 +7,4 @@
 - Lesson6 - Breaks, continues, infinite loops and switch
 - Lesson7 - Math fs
 - Lesson8 - Arrays
+- Lesson9 - Arrays+
