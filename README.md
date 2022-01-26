@@ -11,3 +11,5 @@
 - Lesson10 - 2D+ Arrays
 - Lesson11 - 2D+ Arrays+
 - Lesson12 - Pointers
+- Lesson13 - Char Arrays
+- Lesson14 - Strings
