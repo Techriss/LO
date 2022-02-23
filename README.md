@@ -16,3 +16,4 @@
 - Lesson15 - Strings+
 - Lesson16 - Recursion
 - Lesson17 - Hanoi
+- Lesson18 - Sposoby reprezentowania algorytmów
