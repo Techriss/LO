@@ -17,4 +17,5 @@
 - Lesson16 - Recursion
 - Lesson17 - Hanoi
 - Lesson18 - Algorithms representation methodso
-- Lesson18 - Diagrams
+- Lesson19 - Diagrams
+- Lesson20 - Euclides
