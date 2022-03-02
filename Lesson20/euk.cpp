@@ -1,11 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main()
+int euk_it(int a, int b)
 {
-    int a, b;
-    cin >> a >> b;
-
     while (a != b)
     {
         if (a > b)
@@ -18,5 +15,21 @@ int main()
         }
     }
 
-    cout << "nwd: " << a << endl;
+    return a;
+}
+
+int euk_rec(int a, int b)
+{
+    if (a != b)
+    {
+        return euk_rec(a>b ? a-b : a, b>a ? b-a : b);
+    }
+
+    return a;
+}
+
+
+int main()
+{
+    
 }
