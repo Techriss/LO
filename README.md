@@ -20,3 +20,5 @@
 - Lesson19 - Diagrams - [Figma](https://www.figma.com/file/Em0EhKFF4AMzJnPbEPEhfB/schematy?node-id=0%3A1)
 - Lesson20 - Euclides
 - Lesson21 - Euclides+
+- Lesson22 - Recursion+
+- Lesson23 - Recursion++
