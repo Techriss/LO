@@ -1,0 +1,17 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latestw
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: make
+      run: find . -name '*.cpp' -exec g++ {} \;
