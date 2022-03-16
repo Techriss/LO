@@ -28,11 +28,11 @@ int main()
     s3[1] = '*';
 
     // funkcje
-    s1.empty(); // false jesli pusty
+    s1.empty(); // true jesli pusty, false jesli nie
     s1.size();  // ile znakow
     s1.at(4);   // znak na indeksie 4
     s1.clear(); // usuwa wszystkie znaki
     s1.c_str(); // konwersja na char[]
     s1.substr(0, 2); // ciag 2 znakowy od 0
-    s2.find('h'); // 
+    s2.find('h'); // pozycja gdzie jest h
 }
