@@ -28,8 +28,8 @@ int main()
    int *w = &a;
    *w = 20; // a = 5
 
-
-   int a, b;
+   // int a;
+   int b;
    int &ref = a;
    ref = 10; // a = 10
    b = ref; // b = 10
