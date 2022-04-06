@@ -22,3 +22,4 @@
 - Lesson21 - Euclides+
 - Lesson22 - Recursion+
 - Lesson23 - Recursion++
+- Lesson24 - Scientific notation
