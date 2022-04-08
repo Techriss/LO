@@ -1,0 +1,55 @@
+błędem bezwzględnym (ε - epsilon) nazywamy wartość bezwzględną różnicy miedzy wynikiem oczekiwanym a uzyskanym w obliczeniach
+ε = |x - x̄|
+
+błędem względnym nazywamy stosunek błędu bezwzględnego do oczekiwanego wyniku obliczeń
+δ = ε/x = |x - x̄| / x
+
+
+
+
+-- zad: oszacuj blad abs i rel dla roznicy liczb a = 22.84566335; b = 17.799344112; obliczenia wykonaj z dokladnoscia do 5 miejsc po przecinku
+
+x = oczekiwany
+x = a - b
+x̄ = ā - ƀ
+
+x = 22.84566335 - 17.799344112 = 5.046289798
+x̄ = 22.84563 - 17.79934 = 5.04629
+
+ε = |x - x̄| = |5.046289798 - 5.04629| = 0.0000002102
+
+
+δ = ε/x = 0.0000002102/5.046289798 = 0.000000040025... ≈ 0.00000004 = 0.4 * 10^-7
+
+
+
+
+-- zad: oszacuj blad wzgledny i bezwzgledny dla sumy liczb a = 0.0009870953; b = 38.999087693 z dokladnoscia do 3 miejsc po przecinku
+
+x = a+b
+x̄ = ā+ƀ
+
+ā = 0.001
+ƀ = 38.999
+
+x = 0,00098709553 + 38,999087693 = 39,00007478853
+x̄ = 0.001 + 38.999 = 39
+
+ε = |39,00007478853 - 39| = 0,00007478853
+δ = 0,00007478853 / 39,00007478853 = 1,9176509379924434467693207176732 * 10^-6 ≈ 1.917651 * 10^-6
+
+
+
+
+-- zad: oszacuj blad wzgledny i bezwzgledny dla roznicy liczb a = 190.0965684; b = 59.88888983 do 5 miejsc po przecinku
+
+x = a-b
+x̄ = ā+ƀ
+
+ā = 190,09657
+ƀ = 59,88889
+
+x = 190,0965684 - 59,88888983 = 130,20767857
+x̄ = 130,20768
+
+ε = 
