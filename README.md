@@ -24,3 +24,4 @@
 - Lesson23 - Recursion++
 - Lesson24 - Scientific notation
 - Lesson25 - Relative and absolute approximation errors
+- Lesson26 - Recursion Revision
