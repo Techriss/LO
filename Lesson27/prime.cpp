@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// 0 i 1 nie sa ani pierwsze ani zlozone
 bool isprime(int n)
 {
     if (n < 2) return false;
