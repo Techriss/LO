@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
             "name": "g++.exe - Kompiluj i debuguj aktywny plik",
             "type": "cppdbg",
@@ -15,7 +16,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin\\gdb32.exe",
+            "miDebuggerPath": "C:\\Program Files\\MSYS2\\mingw64\\bin\\gdb.",
             "setupCommands": [
                 {
                     "description": "Włącz formatowanie kodu dla gdb",
