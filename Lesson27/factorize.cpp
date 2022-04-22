@@ -36,7 +36,7 @@ vector<int> factorize(int n)
     return facts;
 }
 
-
+// z podrecznika
 vector<int> factorize2(int n)
 {
     vector<int> facts;
@@ -72,8 +72,6 @@ int main()
     vector<int> facts2 = factorize2(n);
     for (int i = 0; i < facts2.size(); i++)
     {
-        cout << facts[i] << " ";
+        cout << facts2[i] << " ";
     }
-
-
 }
