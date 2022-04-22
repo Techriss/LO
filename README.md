@@ -25,3 +25,4 @@
 - Lesson24 - Scientific notation
 - Lesson25 - Relative and absolute approximation errors
 - Lesson26 - Recursion Revision
+- Lesson27 - Factorization
