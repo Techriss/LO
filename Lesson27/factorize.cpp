@@ -37,14 +37,43 @@ vector<int> factorize(int n)
 }
 
 
+vector<int> factorize2(int n)
+{
+    vector<int> facts;
+    int fact = 2;
+    while (fact <= n)
+    {
+        while (n % fact == 0)
+        {
+            n /= fact;
+            facts.push_back(fact);
+        }
+
+        fact++;
+    }
+
+    return facts;
+}
+
+
 int main()
 {
     int n = 30;
+
     cout << "facts: ";
-    
     vector<int> facts = factorize(n);
     for (int i = 0; i < facts.size(); i++)
     {
         cout << facts[i] << " ";
     }
+
+
+    cout << "\nfacts: ";
+    vector<int> facts2 = factorize2(n);
+    for (int i = 0; i < facts2.size(); i++)
+    {
+        cout << facts[i] << " ";
+    }
+
+
 }
