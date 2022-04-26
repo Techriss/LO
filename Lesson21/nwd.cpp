@@ -18,7 +18,14 @@ int NWD(int a, int b)
     return a + b;
 }
 
+int NWD_r(int x, int y)
+{
+    if (y == 0) return x;
+    return NWD_r(y, x % y);
+}
+
 int main()
 {
-    cout << NWD(12, 18);
+    cout << NWD(9999999, 1) << endl;
+    cout << NWD_r(9999999, 1);
 }

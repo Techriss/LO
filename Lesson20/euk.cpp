@@ -31,5 +31,6 @@ int euk_rec(int a, int b)
 
 int main()
 {
-    
+    cout << euk_it(999999999, 1) << endl;
+    cout << euk_rec(999999999, 1) << endl;
 }
