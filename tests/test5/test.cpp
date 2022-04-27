@@ -112,13 +112,7 @@ int c(int n)
 
 
 
-
 int main()
 {
-    cout << a_i(15) << endl;
-    cout << a_r(15) << endl;
     
-
-
-
 }
