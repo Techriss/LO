@@ -58,5 +58,5 @@ bool isSmith(int n)
 int main()
 {
     cout << isSmith(202) << endl;
-    cout << isSmith(2147483647);
+    cout << isSmith(319);
 }
