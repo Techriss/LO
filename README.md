@@ -26,4 +26,5 @@
 - Lesson25 - Relative and absolute approximation errors
 - Lesson26 - Recursion Revision
 - Lesson27 - Factorization
-- Lesson27 - Factorization+
+- Lesson28 - Erastothenes' Sieve
+- Lesson29 - Erastothenes' Sieve+
