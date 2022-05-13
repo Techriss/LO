@@ -11,7 +11,7 @@ string inverse(int n)
         n /= 10;
     }
 
-    cout << s << endl;
+    return s;
 }
 
 int inverse2(int n)
@@ -23,7 +23,7 @@ int inverse2(int n)
         n /= 10;
     }
 
-    cout << l << endl;
+   return l;
 }
 
 
@@ -34,5 +34,4 @@ int main()
     cout << "n: " << n << endl;
     cout << inverse(n) << endl;
     cout << inverse2(n) << endl;
-
 }
