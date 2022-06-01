@@ -28,3 +28,5 @@
 - Lesson27 - Factorization
 - Lesson28 - Erastothenes' Sieve
 - Lesson29 - Erastothenes' Sieve+
+- Lesson30 - Primes & Factors
+- Lesson31 - Decimal to Binary
