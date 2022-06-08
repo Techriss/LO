@@ -31,4 +31,5 @@
 - Lesson30 - Primes & Factors
 - Lesson31 - Decimal to Binary
 - Lesson32 - Non-decimal systems conversion
-- Lesson32 - Non-decimal systems conversion+
+- Lesson33 - Non-decimal systems conversion+
+- Lesson34 - Python basics
