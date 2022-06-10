@@ -33,3 +33,4 @@
 - Lesson32 - Non-decimal systems conversion
 - Lesson33 - Non-decimal systems conversion+
 - Lesson34 - Python basics
+- Lesson34 - Python basics+
