@@ -34,3 +34,4 @@
 - Lesson33 - Non-decimal systems conversion+
 - Lesson34 - Python basics
 - Lesson35 - Python basics+
+- Lesson36 - Python loops
