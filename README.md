@@ -1,4 +1,8 @@
 ﻿# LO CS
+<details>
+<summary>Year 1</summary>
+<br />
+
 - Lesson1 - Coditions
 - Lesson2 - Loops
 - Lesson3 - Revision
@@ -35,3 +39,11 @@
 - Lesson34 - Python basics
 - Lesson35 - Python basics+
 - Lesson36 - Python loops
+</details>
+  
+<details>
+<summary>Year 2</summary>
+<br />
+
+
+</details>
