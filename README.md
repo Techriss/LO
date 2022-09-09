@@ -45,5 +45,8 @@
 <summary>Year 2</summary>
 <br />
 
+- Lesson 1 - Python basics revison
+- Lesson 2 - Python ifs revison
+
 
 </details>
