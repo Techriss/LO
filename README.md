@@ -47,6 +47,7 @@
 
 - Lesson 1 - Python basics revison
 - Lesson 2 - Python ifs revison
+- Lesson 3 - Python fors revison
 
 
 </details>
