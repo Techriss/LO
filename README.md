@@ -49,6 +49,7 @@
 - Lesson 2 - Python ifs revison
 - Lesson 3 - Python fors revison
 - Lesson 4 - Python fors revison+
+- Lesson 5 - Python for & while loops
 
 
 </details>
