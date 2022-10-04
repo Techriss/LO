@@ -52,6 +52,7 @@
 - Lesson 5 - Python for & while loops
 - Lesson 6 - Arrays
 - Lesson 7 - 2D Arrays
+- Lesson 8 - 2D Arrays+
 
 
 </details>
