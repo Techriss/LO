@@ -53,6 +53,7 @@
 - Lesson 6 - Arrays
 - Lesson 7 - 2D Arrays
 - Lesson 8 - 2D Arrays+
+- Lesson 9 - Matrices
 
 
 </details>
