@@ -54,6 +54,7 @@
 - Lesson 7 - 2D Arrays
 - Lesson 8 - 2D Arrays+
 - Lesson 9 - Matrices
+- Lesson 10 - HTML basics
 
 
 </details>
