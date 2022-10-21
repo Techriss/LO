@@ -60,3 +60,5 @@
 </details>
 
 [https://www.buymeacoffee.com/techriss](https://www.buymeacoffee.com/techriss)
+
+[https://buycoffee.to/techriss](https://buycoffee.to/techriss)
