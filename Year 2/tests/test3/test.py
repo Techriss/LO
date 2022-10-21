@@ -69,4 +69,15 @@ for i in range(4):
         if (T[i][j] < 7):
             T[i][j] += 3
 
+for i in T:
+    min = i[0]
+    min_count = 0
 
+    for j in i:
+        if (j < min):
+            min = j
+    for j in i:
+        if (min == j):
+            min_count += 1
+
+    print(f'we wierszu {i} minimum wynosi {min} i wystepuje {min_count} razy')
