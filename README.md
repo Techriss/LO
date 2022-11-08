@@ -56,6 +56,8 @@
 - Lesson 9 - Matrices
 - Lesson 10 - HTML basics
 - Lesson 11 - HTML basics+
+- Lesson 12 - HTML basics++
+- Lesson 13 - CSS
 
 
 </details>
