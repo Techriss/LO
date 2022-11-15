@@ -57,7 +57,8 @@
 - Lesson 10 - HTML basics
 - Lesson 11 - HTML basics+
 - Lesson 12 - HTML basics++
-- Lesson 13 - CSS
+- Lesson 13 - CSS and links
+- Lesson 14 - CSS
 
 
 </details>
