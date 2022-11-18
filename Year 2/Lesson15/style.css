@@ -1,0 +1,14 @@
+html {
+    background-color: #0f0f0f;
+    color: #eee;
+}
+
+table, tr, td {
+    border: 2px solid lime;
+    border-collapse: collapse;
+    
+}
+
+td {
+    padding: 20px;
+}
