@@ -3,12 +3,17 @@ html {
     color: #eee;
 }
 
-table, tr, td {
-    border: 2px solid lime;
-    border-collapse: collapse;
-    
-}
-
 td {
     padding: 20px;
+}
+
+
+.t1 * {
+    border: 2px solid lime;
+    border-collapse: collapse;
+}
+
+.t2 * {
+    border: 2px solid blue;
+    border-collapse: collapse;
 }
