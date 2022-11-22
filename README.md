@@ -58,8 +58,9 @@
 - Lesson 11 - HTML basics+
 - Lesson 12 - HTML basics++
 - Lesson 13 - CSS and links
-- Lesson 14 - CSS
-- Lesson 15 - CSS+
+- Lesson 14 - CSS (img, links)
+- Lesson 15 - CSS+ (border, marquee)
+- Lesson 16 - CSS++ (hover, visited, active, precise links)
 
 
 </details>
