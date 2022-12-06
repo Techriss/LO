@@ -61,6 +61,10 @@
 - Lesson 14 - CSS (img, links)
 - Lesson 15 - CSS+ (border, marquee)
 - Lesson 16 - CSS++ (hover, visited, active, precise links)
+- Lesson 17 - CSS++ (shadow)
+- Lesson 18 - CSS++ (margin)
+- Lesson 19 - CSS++ (text styling)
+- Lesson 20 - JS
 
 
 </details>
