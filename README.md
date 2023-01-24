@@ -65,6 +65,11 @@
 - Lesson 18 - CSS++ (margin)
 - Lesson 19 - CSS++ (text styling)
 - Lesson 20 - JS
+- Lesson 21 - JS
+- Lesson 22 - JS 
+- Lesson 23 - JS arrays
+- Lesson 24 - JS arrays
+- Lesson 25 - JS document.write & functions
 
 
 </details>
