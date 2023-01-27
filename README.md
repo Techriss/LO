@@ -70,6 +70,7 @@
 - Lesson 23 - JS arrays
 - Lesson 24 - JS arrays
 - Lesson 25 - JS document.write & functions
+- Lesson 26 - JS & HTML
 
 
 </details>
