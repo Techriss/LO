@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <!-- &nbsp; - spacja ktora nie przejdzie do nowej linijki 
+                (non-breaking space) -->
+                <input type="number" id="a">
+                &nbsp; modulo &nbsp;
+            </td>
+
+            <td>
+                <input type="number" id="b">
+                &nbsp; = &nbsp;
+            </td>
+
+            <td>
+                <p id="modulo"></pid>
+            </td>
+        </tr>
+    </table>
+
+    <p id="result"></p>
+    <input type="button" value="oblicz" onclick="check()">
+
+    <script src="./div.js"></script>
+</body>
+</html>
