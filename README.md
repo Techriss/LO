@@ -71,8 +71,11 @@
 - Lesson 24 - JS arrays
 - Lesson 25 - JS document.write & functions
 - Lesson 26 - JS & HTML
-- Lesson 26 - JS & HTML
-
+- Lesson 27 - JS & HTML
+- Lesson 28 - JS & HTML
+- Lesson 29 - JS & HTML & validation
+- Lesson 30 - regex
+ 
 
 </details>
 
