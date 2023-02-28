@@ -74,7 +74,8 @@
 - Lesson 27 - JS & HTML
 - Lesson 28 - JS & HTML
 - Lesson 29 - JS & HTML & validation
-- Lesson 30 - regex
+- Lesson 30 - Regex
+- Lesson 30 - regex+
  
 
 </details>

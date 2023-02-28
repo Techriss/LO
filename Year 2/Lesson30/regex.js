@@ -12,6 +12,10 @@ const regex = /^[a-z]{3,12}/
 
 const number = prompt('podaj number: ')
 const regexnum = /^[0-9]{9}$/
+const regexcode = /^[4-9]{4}$/
+
+const rakrokryk1 = /^r.k$/
+const rakrokryk2 = /^r[a-z]k$/
 
 const a = regex1.test(s)
 const b = regex2.test(s)
@@ -38,7 +42,8 @@ console.log(c) // false
                 co jest przed nim ma byc powtorzone iles razy
                 np.
                     {1}      - 1 raz
-                    {1, 3}   - od 1 do 3 razy
+                    {1,3}   - od 1 do 3 razy
+                    {5,}     - od 5 wiecej
     |     - alternatywa (lub)
                 np. 
                     x | y    - x albo y
