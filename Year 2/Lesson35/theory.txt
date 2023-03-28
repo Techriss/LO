@@ -1,0 +1,28 @@
+siec komputerowa (computer network) to zbior urzadzen komputerowych komunikujacych sie ze soba za posrednictwem wspolnego medium transmisyjnego (transission medium), ktore pozwala na przesylanie informacji miedzy urzadzeniami. Role medium moga pelnic przewody (np. skrętka lub swiatlowod) albo fale radiowe jak w bezprzewodowych sieciach wi-fi lub w systemach lacznosci bezprzewodowej bluetooth
+
+protokol to zbior procedur oraz regul rzadzacych komunikacja, miedzy co najmniej dwoma urzadzeniami sieciowymi. Istnieja rozne protokoly, lecz nawiazujace w danym momencie polaczenie urzadzenia musza uzywac tego samego protokolu, aby wymiana danych miedzy nimi byla mozliwa
+
+urzadzenia 
+    - karta sieciowa
+    - przelacznik sieciowy (switch)
+    - punkt dostepowy (access point)
+    - router
+
+medium transmisyjne
+    - bezprzewodowe (wireless network)
+    - przewodowe (cable network)
+
+typy sieci
+    - WAN (wide area network) - siec rozlegla, laczaca np. uczelnie, osrodki obliczeniowe itp. Moze obejmowac swom zasiegiem wojewodztwo, kraj, kontynent
+    - MAN (metropolitan area network) - siec miejsca, laczy wiele sieci lokalnych np. urzedow, firm komercyjnych uczelni znajdujacych sie w obrebie miast lub calych aglomeracji
+    - LAN (local area network) - siec lokalna, stosowana do laczenia komputerow na malym obszarze, teoretycznie moze obejmowac obszar srednicy kilkuset metrow. Jesli komunikacja w tej sieci odbywa sie bezprzewodowo, mowimy wowczas o sieci WLAN
+    - PAN (private area network) - siec prywatna, instalowana w domu, ewentualnie w obrebie jednego lub kilku stanowisk pracy znajdujacych sie w niewielkiej odleglosci od siebie
+
+topologia - okresla sposob laczenia poszczegolnych  urzadzen sieciowych, ma wplyw na koszty instalacji, podatnosc na uszkodzenia, latwosc naprawy i mozliwosc rozbudowy
+
+topologie
+    - magistrali - wszystkie urzadzenia polaczone sa do jednego wspoldzielonego medium fizycznego, np. kabla, fal radiowych
+    - pierscienia - kazde urzadzenie ma polaczenie z dwoma sasiednimi urzadzeniami, tworzac w ten sposob pierscien
+    - gwiazdy - wszystkie urzadzenia sa podlaczone do jednego punktu centralnego, ktorym moze byc przelacznik sieciowy
+    - gwiazdy rozszerzonej - podobnie jak topologia gwiazdy ma punkt centralny, ale jest wzbogacona o dodatkowe punkty poboczne, do ktorych sa polaczone urzadzenia koncowe
+    
