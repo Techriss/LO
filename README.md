@@ -75,7 +75,10 @@
 - Lesson 28 - JS & HTML
 - Lesson 29 - JS & HTML & validation
 - Lesson 30 - Regex
-- Lesson 30 - regex+
+- Lesson 31 - Regex+
+- Lesson 32 - Regex++
+- Lesson 33 - Regex+++
+- Lesson 34 - Regex++++
  
 
 </details>
