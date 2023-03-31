@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>animacja</title>
+
+        <script>
+            var licznik = 0;
+            var flaga = true;
+            var aktywuj = true;
+            var grafika = "<img src=\"../../res/klatka/klatka01.jpg\"></img>"
+
+            function pierwsza_klatka() {
+                document.getElementById('kino').innerHTML = grafika;
+            }
+
+            function nowa_klatka() {
+                if (flaga) {
+                    if (licznik == 3) licznik--;
+                    if (licznik > 5) licznik = 0; 
+                    licznik++;
+                    grafika = `<img src=\"../../res/klatka/klatka0${licznik}.jpg\"></img>`
+                    document.getElementById('kino').innerHTML = grafika;
+                    czas = setTimeout('nowa_klatka()', 1000/formularz.lista.value)
+
+
+                }
+            }
+
+            function animacja_stop() {
+                flaga = false
+                aktywuj = true;
+            }
+
+            function animacja_start() {
+                if (aktywuj) {
+                    flaga = true;
+                    nowa_klatka();
+                    aktywuj = false;
+                }
+            }
+        </script>
+    </head>
+    <body onload="pierwsza_klatka()">
+        <table>
+            <tr>
+                <font size="6">&nbsp; Lot Ptaka</font>
+            </tr>
+            <tr>
+                <div id="kino">
+
+                </div>
+            </tr>
+        
+
+            <tr>
+                <form name="formularz">
+                    <select name="lista" onchange="wybierz(lista.selectedIndex)" size="1">
+                        <option value="60">60 fps</option>
+                        <option value="30">30 fps</option>
+                        <option value="24">24 fps</option>
+                        <option value="15">15 fps</option>
+                        <option value="10">10 fps</option>
+                        <option value="5">5 fps</option>
+                        <option value="1">1 fps</option>
+                    </select>
+                </form>
+
+                <br><br>
+
+                <input type="submit" value="start" onclick="animacja_start()">
+                <input type="submit" value="stop" onclick="animacja_stop()">
+            </tr>
+        </table>
+    </body>
+</html>
