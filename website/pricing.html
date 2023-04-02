@@ -10,7 +10,7 @@
         <script src="./script.js"></script>
         <link rel="icon" href="https://0kpufa.db.files.1drv.com/y4mJ-pj3lP4y4ggo98lJXipJlt6u-OL0rcKqrEHXNWZzdfol_kh02xXqWBW5jjNVl8jS1QCi6bQgYDdivQoaZamp6lGX4rb5O-zVRO_gsy6EgFpWEH06KMq9DV4mmBYBAp-cQOic1FloDkB9zMnd6xJeNF4QKm6W5vC5Pm9cxjzF20EpASPy-DcEhlZ1a2p6o3boIdpsL95QQbDKdTdCkPIxw">
     </head>
-    <body onload="setYear()">
+    <body  onload="setYear()">
         <nav>
             <div class="logo">
                 <a href="./index.html"><span>KKWLSKI</span></a>
@@ -42,53 +42,23 @@
             </div>
         </nav>
 
-        <div class="hero">
-            <div>
-                <h1>Nic nie umiesz? <br> Dobrze trafiłeś.</h1>
-                <p>Profesjonalne&nbsp;korepetycje od&nbsp;ucznia elitarnego liceum dostępne od ręki</p>
-                <button class="hero-btn" onclick="location.href = './meeting.html'">Zapisz się</button>
+        <main>
+            <div class="cards">
+                <div class="card">
+                    <h3>Praca<br>Domowa</h3>
+                    <h2>od<br>50zł</h2>
+                </div>
+                <div class="card main-card">
+                    <h3>Korepetycje</h3>
+                    <h2>200zł<br>/h</h2>
+                </div>
+                <div class="card">
+                    <h3>Kolaboracja<br>Jednorazowa</h3>
+                    <h2>od<br>80zł</h2>
+                </div>
             </div>
-            <img class="hero-img" src="./res/img/Stuck at Home - Stats and Graphs.png">
-            <div class="break"></div>
-            <div class="hero-arrow" onclick="scrollDown('a1')">
-                <img src="./res/svg/arrow.svg">
-            </div>
-        </div>
-
-        <div class="part-container a1" id="a1">
-            <div class="part">
-                <h2>Indywidualna<br>ścieżka<br>nauczania</h2>
-                <img class="part-img" src="./res/svg/a1.svg">
-            </div>
-        </div>
-
-        <div class="part-container a2">
-            <div class="part">
-                <img class="part-img" src="./res/svg/a2.svg">
-                <h2>Lekcje online<br>i offline</h2>
-            </div>
-        </div>
-
-        <div class="part-container a3">
-            <div class="part">
-                <h2>Wyzywające<br>zajęcia, które<br>przygotują Cię<br>do matury</h2>
-                <img class="part-img" src="./res/svg/a3.svg">
-            </div>
-        </div>
-
-        <div class="part-container a4">
-            <div class="part">
-                <img class="part-img" src="./res/svg/a4.svg">
-                <h2>Materiały<br>dydaktyczne<br>dostępne<br>24/7</h2>
-            </div>
-        </div>
-
-        <div class="part-container a5">
-            <div class="part">
-                <h2>Kolaboracja<br>w czasie<br>rzeczywistym</h2>
-                <img class="part-img" src="./res/svg/a5.svg">
-            </div>
-        </div>
+            
+        </main>
 
         <div class="footer-container">
             <footer>
@@ -128,10 +98,5 @@
                 </ul>
             </footer>
         </div>
-
-
-
-
-        <script src="./script.js"></script>
     </body>
 </html>
