@@ -10,7 +10,8 @@
             var licznik = 0;
             var flaga = true;
             var aktywuj = true;
-            var grafika = "<img src=\"../../res/klatka/klatka01.jpg\"></img>"
+            var grafika = "<img src=\"../../res/klatka/Lot_ptaka_start/klatka_0-01.jpg\"></img>"
+            var started = 0;
 
             function pierwsza_klatka() {
                 document.getElementById('kino').innerHTML = grafika;
@@ -19,9 +20,12 @@
             function nowa_klatka() {
                 if (flaga) {
                     // if (licznik == 6) licznik--;
-                    if (licznik > 6) licznik = 0; 
+                    if (licznik > 5) {
+                        licznik = 0;
+                        started = !started;
+                    }
                     licznik++;
-                    grafika = `<img src=\"../../res/klatka/klatka0${licznik}.jpg\"></img>`
+                    grafika = !started ? `<img src=\"../../res/klatka/Lot_ptaka_start/klatka_0-0${licznik}.jpg\"></img>` : `<img src=\"../../res/klatka/Lot_ptaka_start/klatka_1-0${licznik}.jpg\"></img>` 
                     document.getElementById('kino').innerHTML = grafika;
                     czas = setTimeout('nowa_klatka()', 1000/formularz.lista.value)
                 }
