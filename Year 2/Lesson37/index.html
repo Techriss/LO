@@ -10,7 +10,7 @@
             var licznik = 0;
             var flaga = true;
             var aktywuj = true;
-            var grafika = "<img src=\"../../res/klatka/Lot_ptaka_start/klatka_0-01.jpg\"></img>"
+            var grafika = "<img src=\"../../res/klatka/Lot_ptaka_start/klatka_0-01.jpg\"></img>"S
             var started = 0;
 
             function pierwsza_klatka() {
@@ -22,7 +22,8 @@
                     // if (licznik == 6) licznik--;
                     if (licznik > 5) {
                         licznik = 0;
-                        started = !started;
+                        // started = !started;
+                        if (!started) started = true;
                     }
                     licznik++;
                     grafika = !started ? `<img src=\"../../res/klatka/Lot_ptaka_start/klatka_0-0${licznik}.jpg\"></img>` : `<img src=\"../../res/klatka/Lot_ptaka_start/klatka_1-0${licznik}.jpg\"></img>` 
