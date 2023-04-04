@@ -79,6 +79,9 @@
 - Lesson 32 - Regex++
 - Lesson 33 - Regex+++
 - Lesson 34 - Regex++++
+- Lesson 35 - Networking Theory
+- Lesson 36 - Animation
+- Lesson 37 - Animation+
  
 
 </details>
