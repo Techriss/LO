@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>zarejestruj sie na konferencje naukowa 2023</h1>
+        <br><br>
+        <form>
+
+            <label>imie</label>
+            <br>
+            <input type="text" id="imie">
+            <br><br>
+
+            <label>nazwisko</label>
+            <br>
+            <input type="text" id="nazwisko">
+            <br><br>
+
+            <label>data urodzenia</label>
+            <br>
+            <input type="text" id="dataurodzenia">
+            <br><br>
+
+            <label>numer karty</label>
+            <br>
+            <input type="text" id="numerkarty">
+            <br><br>
+
+            <label>cvv</label>
+            <br>
+            <input type="text" id="cvv">
+            <br><br>
+
+            <label>rok wygasniecia</label>
+            <br>
+            <input type="text" id="rokwygasniecia">
+            <br><br>
+
+            <label>pesel</label>
+            <br>
+            <input type="text" id="pesel">
+            <br><br>
+
+            <input type="button" value="stwórz" onclick="check()">
+        </form>
+        
+        <script>
+            function check() {
+                let imie = document.getElementById('imie').value;
+                let nazwisko = document.getElementById('nazwisko').value;
+                let dataurodzenia = document.getElementById('dataurodzenia').value;
+                let numerkarty = document.getElementById('numerkarty').value;
+                let cvv = document.getElementById('cvv').value;
+                let rokwygasniecia = document.getElementById('rokwygasniecia').value;
+                let pesel = document.getElementById('pesel').value;
+
+                console.log(pesel)
+
+                if (imie == '' ||
+                    nazwisko == '' ||
+                    dataurodzenia == '' ||
+                    numerkarty == '' ||
+                    cvv == '' ||
+                    rokwygasniecia == '' ||
+                    pesel == ''
+                    ) {
+                    document.write('czegos nie wpisales. sprobuj ponownie.')
+                }
+                else {
+                    document.write('rejestracja udana')
+                }
+            }
+        </script>
+    </body>
+</html>

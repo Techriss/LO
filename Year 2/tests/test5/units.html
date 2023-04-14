@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            <label>podaj dlugosc w m: </label>
+            <input type="text" id="m">
+
+            <br><br>
+
+            <button type="button" onclick="przelicz()">przelicz na anglosaski</button>
+
+            <br><br>
+
+            <p id="mile"></p>
+            <p id="jardy"></p>
+            <p id="stopy"></p>
+            <p id="cale"></p>
+
+
+        </form>
+
+        <script>
+            function przelicz() {
+                const m = parseFloat(document.getElementById('m').value)
+
+                mile = m/1609
+                jardy = m/0.9144
+                stopy = m/0.3048
+                cale = m/0.0254
+
+                document.getElementById('mile').innerHTML = mile + ' mil'
+                document.getElementById('jardy').innerHTML = jardy + ' jardow'
+                document.getElementById('stopy').innerHTML = stopy + ' stop'
+                document.getElementById('cale').innerHTML = cale + ' cali'
+            }
+        </script>
+    </body>
+</html>
