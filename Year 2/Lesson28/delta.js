@@ -1,7 +1,7 @@
 function check() {
     let a = parseInt(document.getElementById('a').value)
-    let b = parseInt(document.getElementById('a').value)
-    let c = parseInt(document.getElementById('a').value)
+    let b = parseInt(document.getElementById('b').value)
+    let c = parseInt(document.getElementById('c').value)
 
     let delta = (b*b) - (4*a*c)
     let text = ""

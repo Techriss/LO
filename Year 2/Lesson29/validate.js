@@ -13,7 +13,7 @@ function double(s) {
 }
 
 function check() {
-    let s = document.getElementById('input');
+    let s = document.getElementById('input').value;
     let correct = double(s);
 
     if (correct) {

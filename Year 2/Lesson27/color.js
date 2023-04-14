@@ -1,11 +1,11 @@
 function blue() {
-    document.bgColor = 'blue'
+    document.body.style.background = 'blue'
 }
 
 function orange() {
-    document.bgColor = 'orange'
+    document.body.style.background = 'orange'
 }
 
 function yellow() {
-    document.bgColor = 'green'
+    document.body.style.background = 'green'
 }

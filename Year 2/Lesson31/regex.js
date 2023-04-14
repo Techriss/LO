@@ -10,7 +10,7 @@ const ip1 = /^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$/
 const ip2 = /^([0-9]{1,3}\.){3}[0-9]{1,3}$/
 
 const fizyk1 = /^fizy(k|cy)$/
-const fizyk2 = /^fizyk|fizycy/
+const fizyk2 = /^fizyk|fizycy$/
 
 const axy = /^a.[0-9]$/
 
