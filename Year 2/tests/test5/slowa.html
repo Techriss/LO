@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            <label>wpisz slowo: </label>
+            <input type="text" id="slowo">
+            <button type="button" onclick="check()">sprawdz</button>
+            <p id="dobreslowo"></p>
+
+            <br><br>
+            <label>data</label>
+            <input type="text" id="data">
+            <button type="button" onclick="date()">sprawdz</button>
+            <p id="dobradata"></p>
+        </form>
+
+        <script>
+            function check() {
+                const slowo = document.getElementById('slowo').value
+
+                const piecliter = slowo.length >= 5
+                const regex = /^W..\$[a-zA-Z]*$/
+                const czyregex = regex.test(slowo) 
+
+                const dobreslowo = document.getElementById('dobreslowo')
+
+                if (piecliter && czyregex) {
+                    dobreslowo.innerHTML = "slowo jest dobre"
+                }
+                else {
+                    dobreslowo.innerHTML = "slowo jest zle"
+                }
+            }
+
+            function date() {
+                const data = document.getElementById('data').value
+                const regex = /^[0-9]{4}\.(0[1-9]|(1[0-2]))\.[0-9]{2}$/
+                const dobre = regex.test(data)
+
+                const dobra = document.getElementById('dobradata')
+                if (dobre) dobra.innerHTML = 'dobra data'
+                else dobra.innerHTML = 'zla data'
+            }
+        </script>
+    </body>
+</html>
