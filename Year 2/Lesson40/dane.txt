@@ -1,0 +1,3 @@
+informatyka;6
+polski;2
+matematyka;5
