@@ -1,0 +1,12 @@
+cyfry znaczace: cyfry oprócz 0 na początku i 0 na końcu
+    np. 
+        0,000[45]
+        [54,092]0
+        0,0[1]00
+
+zaokrąglanie do cyfr znaczących
+
+    - jeśli ostatnia cyfra to 5
+        => algorytm bankierski
+            1. jesli nieparzysta przed 5, w góre (0,385 -> 0,38)
+            2. jesli parzysta, w dół (0,335 -> 0,34)
