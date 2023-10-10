@@ -90,6 +90,15 @@
 
 </details>
 
+<details>
+<summary>Year 3</summary>
+<br />
+
+- Lesson 1-6 - Excel
+- Lesson 7 - Significant digits
+
+</details>
+
 [https://www.buymeacoffee.com/techriss](https://www.buymeacoffee.com/techriss)
 
 [https://buycoffee.to/techriss](https://buycoffee.to/techriss)
