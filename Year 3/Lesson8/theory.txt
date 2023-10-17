@@ -1,0 +1,1 @@
+SZBD - system zafządzania bazą danych
