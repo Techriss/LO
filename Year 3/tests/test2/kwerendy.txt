@@ -1,0 +1,14 @@
+1. Wypisze pracownikow z dzialu procownik_produkcji, jego pensje i premie
+2. Pracownik, ktorego nazwisko konczy sie na 0 ma premie w grudniu mniejsza niz 5000
+3. Wypisze pracownika, ktory ma pensje miedzy 5000 a 10000 i jest kierowca lub kierownikiem
+4. Jakie byly premie w 2019 roku
+5. Jaka byla suma premi w 2018 roku
+6. Wyswietl pracownikow, ktorych srednia premia wynosila 5830
+7. Kwerenda krzyzowa ile razy premie miał kazdy pracownik w danym roku
+8. Kwerenda krzyzowa wyswietlajaca sume premi w kazdym miesiacu dla pracownika
+baza-kw-z10
+9. Wyswietl filmyu z kategorii S-f lub Dokument.
+10. Ile filmów wyrezyserowal rezyser, ktorego nazwisko konczy sie na g
+11. Wyswietl wszystkie filmy, w ktorych wystapil Bruce Lee lub Jack Nicholson
+12. Wyswietl tytuly i osoby zaczynajace sie na liter p i pozyczcyli film przed 15.01.2007
+filmoteka
