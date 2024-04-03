@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zarzad zieleni</title>
+</head>
+<body>
+    <h1>zarzad zieleni</h1>
+    <p>aplikacja umozliwia</p>
+    <ul>
+        <li>dodawanie drzew i ulic do bazy</li>
+        <li>wyswietlanie listy ulic lub drzew</li>
+    </ul>
+    <br>
+
+    <h2>dodawanie</h2>
+    <h3>dodaj drzewo</h3>
+    <form action="dodaj_drzewo.php" method="post">
+        gatunek:
+        <input type="text" name="gatunek" maxlength="50"/>
+        rodzaj:
+        <select name="rodzaj">
+            <option>lisciaste</option>
+            <option>iglaste</option>
+        </select>
+        <input type="submit" value="zapisz">
+    </form>
+
+    <h3>dodaj ulice</h3>
+    <form action="dodaj_ulice.php" method="post">
+        ulica:
+        <input type="text" name="ulica" maxlength="50"/>
+        <input type="submit" value="zapisz">
+    </form>
+
+
+
+    <h2>wyswietlanie</h2>
+    <h3>wyswietlanie ulic lub drzew</h3>
+    <form action="wyswietlanie.php" method="post">
+        wybierz, co chcesz wyswietlic:
+        <select name="lista">
+            <option>drzewa</option> 
+            <option>ulice</option> 
+        </select>
+        <input type="submit" value="wyswietl">
+    </form>
+
+</body>
+</html>
