@@ -1,7 +1,7 @@
 <?php
 
     $lista = $_POST['lista'];
-    $polaczenie = new mysqli('localhost', 'root', '75750506#200420#', 'szkola');
+    $polaczenie = new mysqli('localhost', 'root', '', 'szkola');
     // $wyswietl = $polaczenie->query("select * from '$lista';");
 
     // while ($wiersz = $wyswietl->fetch_array()) {
