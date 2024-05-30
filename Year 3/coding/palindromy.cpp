@@ -56,9 +56,51 @@ void findps(string s) {
 bool isPalindrome_sentence(string s) {
     for (int i = 0, j = s.size()-1; i < j; i++, j--) {
         while (toupper(s[i]) < 'A' || toupper(s[i]) > 'Z') ++i;
-        while (toupper(s[J]) < 'A' || toupper(s[J]) > 'Z') --j;
+        while (toupper(s[j]) < 'A' || toupper(s[j]) > 'Z') --j;
         if (i > j || s[i] != s[j]) return false;
     }
 
     return true;
+}
+
+
+
+void threedigitps() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 0; j <= 9; j++) {
+            cout << i << j << i << endl;
+        }
+    }
+}
+
+
+string upstring(string s) {
+    string x = s;
+
+    for (int i = 0; i < s.size(); i++) 
+        x[i] = toupper(s[i]);
+
+    return x;
+}
+
+string upstring(string s) {
+    for (auto &c : s) {
+        c = toupper(c);
+    }
+
+    return s;
+}
+
+
+void psab(int a, int b) {
+    for (int i = a; i <= b; ++i) {
+        auto x = to_string(i);
+        if (isPalindrome(x)) cout << x;
+    }
+}
+
+
+
+int main() {
+    cout << upstring("ala ma Kota");
 }
