@@ -1,6 +1,6 @@
 <?php
 
-    $polaczenie = new mysqli('localhost', 'root', '75750506#200420#', 'szkola');
+    $polaczenie = new mysqli('localhost', 'root', '', 'szkola');
     // serwer, uzytkownik, haslo, baza danyh
 
     $wyswietl = $polaczenie->query('select imie, nazwisko from studenci_dane');

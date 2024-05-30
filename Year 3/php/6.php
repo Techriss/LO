@@ -1,6 +1,6 @@
 <?php 
 
-    $polaczenie = new mysqli('localhost', 'root', '75750506#200420#', 'szkola');
+    $polaczenie = new mysqli('localhost', 'root', '', 'szkola');
     $wyswietl = $polaczenie->query('select id, imie, nazwisko from aktorzy');
 
     while ($wiersz = $wyswietl->fetch_array()) {
@@ -12,7 +12,7 @@
 
 
 
-    $polaczenie = new mysqli('localhost', 'root', '75750506#200420#', 'szkola');
+    $polaczenie = new mysqli('localhost', 'root', '', 'szkola');
     $wyswietl = $polaczenie->query('select id, imie, nazwisko from aktorzy');
 
     echo '<table>';
