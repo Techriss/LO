@@ -6,6 +6,17 @@ using namespace std;
 const std::string alfabet_m = "aąbcćdeęfghijklłmnńoóprsśtuwyzźż";
 const std::string alfabet_w = "AĄBCĆDEĘFGHIJKLŁMNŃOÓPRSŚTUWYZŹŻ";
 
+std::string cezar(std::string s, int klucz) {
+    std::string szyfrogram = s;
+    for (int i = 0; i < s.size(); i++) {
+        if (s[i] < 'a' || s[i] > 'z') continue;
+        szyfrogram[i] = s[i] + klucz;
+        if (szyfrogram[i] - 'a' >= 26) szyfrogram[i] -= 26;
+    }
+
+    return szyfrogram;
+}
+
 
 int znajdzklucz() {
     ifstream wejscie("tajne.txt");
@@ -18,7 +29,7 @@ int znajdzklucz() {
     string s;
     while (!wejscie.eof()) {
         getline(wejscie, s);
-        for (int j = 0; i < s.size(); i++) {
+        for (int i = 0; i < s.size(); i++) {
             int j = alfabet_m.find(s[i]);
             if (j >= 0 && j < 35) liczniki[j]++;
             else {
