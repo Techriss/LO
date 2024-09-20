@@ -44,7 +44,7 @@ int znajdzklucz() {
         if (liczniki[i] > liczniki[klucz]) klucz = i;
     }
 
-    return klucz
+    return klucz;
 
 }
 
