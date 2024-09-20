@@ -19,14 +19,11 @@ std::string cezar(std::string s, int klucz) {
 
 
 int znajdzklucz() {
+    int liczniki[35];
+    for (int i = 0; i < 35; i++) liczniki[i] = 0;
+    string s;
     ifstream wejscie("tajne.txt");
 
-    int liczniki[35];
-    for (int i = 0; i < 35; i++) {
-        liczniki[i] = 0;
-    }
-
-    string s;
     while (!wejscie.eof()) {
         getline(wejscie, s);
         for (int i = 0; i < s.size(); i++) {
@@ -53,6 +50,7 @@ void szyfruj(int klucz) {
     string s;
     ifstream wejscie("tajne.txt");
     ofstream wyjscie("odszyfrowany.txt");
+
     while (!wejscie.eof()) {
         getline(wejscie, s);
         wyjscie << cezar(s, klucz) << endl;
@@ -60,9 +58,6 @@ void szyfruj(int klucz) {
 
     wyjscie.close();
     wejscie.close();
-
-
-
 }
 
 
