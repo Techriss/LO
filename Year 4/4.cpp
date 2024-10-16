@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <algorithm>
 using namespace std;
 
 const std::string alfabet_m = "aąbcćdeęfghijklłmnńoóprsśtuwyzźż";
@@ -65,3 +66,27 @@ int main() {
     szyfruj(35-znajdzklucz());
     cout << "plik odszyfrowany zostal utworzony" << endl;
 }
+
+
+string przestaw2(string tj, string kl) {
+    string szyfrogram = "";
+    int i, j;
+
+    while (tj.size() % kl.size() != 0) tj += 'x';
+    for (j = 0; j < kl.size(); j++) {
+        for (i = 0; i < tj.size()/kl.size(); i++)
+            szyfrogram += tj[i*kl.size() + kl[j] - '0'];
+    }
+
+    return szyfrogram;
+}
+
+
+// 1 sposob
+bool anagram(string s1, string s2) {
+    sort(s1.begin(), s1.end()); sort(s2.begin(), s2.end());
+    return s1 == s2;
+}
+
+// 2 sposob 
+// policzyc litery

@@ -6,8 +6,8 @@ using namespace std;
 const std::string alfabet = "aąbcćdeęfghijklłmnńoóprsśtuwyzźż";
 const std::string betabet = "AĄBCĆDEĘFGHIJKLŁMNŃOÓPRSŚTUWYZŹŻ";
 
-std::string cezar(std::string s, int klucz) {
-    std::string szyfrogram = s;
+string cezar(std::string s, int klucz) {
+    string szyfrogram = s;
     for (int i = 0; i < s.size(); i++) {
         if (s[i] < 'a' || s[i] > 'z') continue;
         szyfrogram[i] = s[i] + klucz;
