@@ -23,6 +23,18 @@ string kolumnowy(string s, int k) {
     return c;
 }
 
+string kolumnowy_kolejnosc(string s, string k) {
+    string c;
+
+    while (s.size() % k.size() != 0) s += 'X';
+
+    for (int j = 0; j < k.size(); j++)
+        for (int i = 0; i < s.size()/k.size(); i++)
+            c += s[i*k.size() + k[j] - '0'];
+
+    return c;
+}
+
 
 string cezar(string s, int k) {
     string c = s;
@@ -48,6 +60,15 @@ void cezar_plik(string s, int k) {
     wejscie.close();
     wyjscie.close();
 }
+
+
+
+
+
+
+
+
+
 
 
 
