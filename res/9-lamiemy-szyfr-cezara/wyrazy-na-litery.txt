@@ -1,0 +1,5 @@
+Szyfry poligramowe nale¿¹ do szyfrów podstawieniowych
+Podczas szyfrowania szyfrem poligramowym na znaki szyfrogramu
+zamienia siê grupy znaków tekstu jawnego
+Przyk³adem szyfru poligramowego jest szyfr Playfaira
+Pierwsze znane opisy tego szyfru pochodz¹ z dziewiêtnastego wieku
