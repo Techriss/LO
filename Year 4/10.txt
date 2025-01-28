@@ -1,0 +1,57 @@
+--- odwrotna notacja polska ---
+
+a + b - notacja tradycyjna
+3 + 2 = 5
+
++ a b - notacja polska
++ 2 3 = 5
+
+a b + - odwrotna notacja polska
+2 3 + = 
+
+a b c + *
+a * (b + c)
+
+
+
+
+notacja tradycyjna | odwrotna notacja polska
+a + b * c            abc*+
+a + b + c            ab*c+
+(a-b)*c              ab-c*
+
+
+
+
+
+
+
+--- stos ---
+push()
+pop()
+top()
+empty()
+
+LIFO - last in first out
+
+
+krok | znak | operacja          | onp | element na stosie
+1      a      dopisac do onp      a     
+2      +      dopisac do stosu    a     +
+3      b      dopisac do onp      ab    +
+4      *      dopisac do stosu    ab    +*
+5      c      dopisac do onp      abc   +*
+6             zdjecie ze stosu    abc*  +
+7             zdjecie ze stosu    abc*+ 
+
+
+
+
+
+
+
+
+--- kolejka ---
+
+
+FIFO - first in first out
