@@ -5,11 +5,12 @@
 #include <string>
 
 using namespace std;
-const string alfabet = "aąbcćdeęfghijklłmnńoópqrsśtuvwxyzźż";
-const int N = 35;
+// const string alfabet = "aąbcćdeęfghijklłmnńoópqrsśtuvwxyzźż";
+const string alfabet = "abcdefghijklmnopqrstuvwxyz";
+const int N = 26;
 
 void budujliste(list<string> &lista, int &mdl) {
-    ifstream we("słowa.txt");
+    ifstream we("slowa.txt");
     string s;
     mdl = 0;
     while (we >> s) {
@@ -30,28 +31,45 @@ void zapiszliste(list<string> &lista) {
     wy.close();
 }
 
+void print(list<string> &lista) {
+    for (auto it = lista.begin(); it != lista.end(); it++) {
+        cout << *it << endl;
+    }
+}
+
 void sortujslowa(list<string> &lista, int mdl) {
     queue<string> kubelki[N];
     list<string>::iterator it;
-    int i, j;
     string s;
 
-    for (i = mdl - 1; i >= 0; i--) {
+    for (int i = mdl - 1; i >= 0; i--) {
         it = lista.begin();
         while (it != lista.end()) {
             s = *it;
             if (s.size() > i) {
                 it = lista.erase(it);
-                j = alfabet.find(s[i]);
+                int j = alfabet.find(s[i]);
                 kubelki[j].push(s);
             }
             else it++;
         }
 
-        for (j = 0; j < N; j++) {
-            while (!kubelki[j].empty())
-            lista.push_back(kubelki[j].front());
-            kubelki[j].pop();
+        for (int j = 0; j < N; j++) {
+            while (!kubelki[j].empty()) {
+                lista.push_back(kubelki[j].front());
+                kubelki[j].pop();
+            }
         }
     }
+}
+
+
+
+int main() {
+    list<string> lista;
+    int mdl;
+    budujliste(lista, mdl);
+    sortujslowa(lista, mdl);
+    print(lista);
+    // zapiszliste(lista);
 }
